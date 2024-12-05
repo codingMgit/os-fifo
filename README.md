@@ -10,12 +10,12 @@
 
 ## Algorithm:
 
-1. Initialize an empty frame of size frames.
-2. Set pageFault = 0 and frameCount = 0.
-3. For each page in the pages array:
-4. If the page is not in the frame:
-5. Replace the page at frameCount with the current page.
-6. Increment frameCount (modulo the frame size for circular replacement).
-7. Increment pageFault.
-8. If the page is already in the frame, do nothing.
-0. At the end, return pageFault.
+### 1. Initialize an empty frame of size frames.
+### 2. Set pageFault = 0 and frameCount = 0.
+### 3. For each page in the pages array:
+### 4. If the page is not in the frame:
+### 5. Replace the page at frameCount with the current page.
+### 6. Increment frameCount (modulo the frame size for circular replacement).
+### 7. Increment pageFault.
+### 8. If the page is already in the frame, do nothing.
+### 9. At the end, return pageFault.
