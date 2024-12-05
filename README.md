@@ -23,7 +23,11 @@
 ## Output :
 
 Enter the number of pages (<1000):
+
 10
+
 Enter 10 pages:
+
 2 3 2 1 1 4 5 3 4 6
+
 PAGE FAULTS = 7
